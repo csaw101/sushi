@@ -1,9 +1,7 @@
-import NxWelcome from './nx-welcome';
-
-export function App() {
+function App() {
   return (
     <div>
-      <NxWelcome title="sushi-ts" />
+      Hello
     </div>
   );
 }
