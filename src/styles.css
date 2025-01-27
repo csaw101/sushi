@@ -3,11 +3,43 @@
 @tailwind utilities;
 
 @font-face {
-  font-family: "MinionPro";
-  src: url("./assets/fonts/Minion Pro Regular.ttf");
+  font-family: 'MinionPro';
+  src: url('./assets/fonts/Minion Pro Regular.ttf');
 }
 
 @font-face {
-  font-family: "DorisPP";
-  src: url("./assets/fonts/Doris\ PP.ttf");
+  font-family: 'DorisPP';
+  src: url('./assets/fonts/Doris\ PP.ttf');
+}
+
+@layer base {
+  body {
+    background-image: linear-gradient(#f7c6db, #fdecf4);
+  }
+}
+
+/* Animate the sushi logo at the navbar */
+/*linear-gradient(to right, #f872a7, #f872a7 50%, black 50%);*/
+.sushi {
+  background-image: linear-gradient(
+    to right,
+    #f872a7,
+    #f872a7 50%,
+    black 50%
+  );
+  /*background-clip: text;*/
+  /*-webkit-text-fill-color: transparent;*/
+  /*background-size: 200% 100%;*/
+  /*background-position: 100%;*/
+  /*transition: background-position 275ms ease;*/
+}
+
+/*.sushi:hover {*/
+/*  background-position: 0 100%;*/
+/*}*/
+
+
+
+.wicked {
+
 }
