@@ -5,7 +5,7 @@
     <img src="https://skillicons.dev/icons?i=ts,react,tailwind,vite" />
   </a>
 </p>
----
+<br />
 
 ### Serving the website
 ```sh
