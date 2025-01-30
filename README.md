@@ -5,10 +5,13 @@
     <img src="https://skillicons.dev/icons?i=ts,react,tailwind,vite" />
   </a>
 </p>
-<br />
 
-### Serving the website
+# Serving locally
 ```sh
 npx nx serve
 
+```
+# Building
+```sh
+npx nx build
 ```
