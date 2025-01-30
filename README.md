@@ -6,6 +6,7 @@
   </a>
 </p>
 ---
+
 ### Serving the website
 ```sh
 npx nx serve
